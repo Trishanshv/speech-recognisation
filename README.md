@@ -1,4 +1,4 @@
-##🎤 Speech Recognition (Whisper + SpeechRecognition)
+#🎤 Speech Recognition (Whisper + SpeechRecognition)
 
 This project is a speech-to-text recognizer built using OpenAI Whisper
 , PyTorch
@@ -51,19 +51,20 @@ If GPU (CUDA) is available, Whisper will run much faster.
 
 Run the main script:
 
+```
 python speech.py
-
+```
 
 The program will listen continuously from your default microphone.
 
 After each recording, it will print the recognized text:
-
+```
 Listening...
 You said: open my documents folder
-
+```
 
 You can later hook this output into your assistant logic.
-
+---
 ##🚀 Future Plans
 
 Add file assistant integration (process spoken commands).
@@ -71,7 +72,7 @@ Add file assistant integration (process spoken commands).
 Improve accuracy by experimenting with larger Whisper models.
 
 Add support for multiple languages.
-
+---
 🤝 Contribution
 
 Feel free to fork this repo, open issues, or submit pull requests with improvements.
