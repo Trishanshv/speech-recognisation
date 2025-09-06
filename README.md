@@ -5,6 +5,7 @@ This project is a speech-to-text recognizer built using OpenAI Whisper
 , and SpeechRecognition.
 
 It is designed as the core component of a larger file assistant project, but can also be used as a standalone speech recognizer.
+
 ---
 
  ## ✨ Features
@@ -16,6 +17,7 @@ It is designed as the core component of a larger file assistant project, but can
 📄 Transcribes speech into text in real time.
 
 🛠 Simple and modular — can be extended into assistants or other projects.
+
 ---
 
  ## 📂 Project Structure
@@ -26,6 +28,7 @@ speech-recognisation/
 ├── temp.wav         # Temporary audio file saved during recognition
 ├── check.cpp        # (Currently unused, placeholder for future extensions)
 ```
+
 ---
 
  ## 🔧 Installation
@@ -67,6 +70,7 @@ You said: open my documents folder
 ```
 
 You can later hook this output into your assistant logic.
+
 ---
  ## 🚀 Future Plans
 
@@ -75,6 +79,7 @@ Add file assistant integration (process spoken commands).
 Improve accuracy by experimenting with larger Whisper models.
 
 Add support for multiple languages.
+
 ---
 
  ## 🤝 Contribution
